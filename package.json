@@ -1,0 +1,31 @@
+{
+  "name": "npm-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glitch78/npm-exercises.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glitch78/npm-exercises/issues"
+  },
+  "homepage": "https://github.com/glitch78/npm-exercises#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.8"
+  }
+}
